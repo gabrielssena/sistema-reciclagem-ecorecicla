@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ecorecicla-backend
+    env: java
+    buildCommand: mvn clean install -DskipTests
+    startCommand: java -Dserver.port=$PORT -jar target/*.jar
+    plan: free
+    region: oregon
+    branch: main
+    rootDir: backend
+    envVars:
+      - key: JAVA_VERSION
+        value: "11"
+      - key: MAVEN_OPTS
+        value: "-Xmx1024m"
