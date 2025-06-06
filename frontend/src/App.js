@@ -8,6 +8,7 @@ import { Dashboard } from './pages/Dashboard';
 import { Reciclagem } from './pages/Reciclagem';
 import { Historico } from './pages/Historico';
 import { TrocarPontos } from './pages/TrocarPontos';
+import { Pontuacao } from './pages/Pontuacao';
 
 // Componente para proteger rotas
 const ProtectedRoute = ({ children }) => {
@@ -67,6 +68,7 @@ const AppContent = () => {
             </ProtectedRoute>
           } 
         />
+        <Route path="/pontuacao" element={<Pontuacao />} />
         {/* Redireciona qualquer rota não encontrada */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

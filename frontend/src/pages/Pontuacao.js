@@ -4,7 +4,6 @@ import { theme } from '../styles/theme';
 import { Card } from '../components/Card';
 import { FiTrendingUp, FiRefreshCw, FiGift } from 'react-icons/fi';
 
-// E mude FiRecycle para FiRefreshCw no componente
 const PontuacaoContainer = styled.div`
   padding: ${theme.spacing.xl};
   max-width: 1000px;
