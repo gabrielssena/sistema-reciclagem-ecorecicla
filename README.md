@@ -1,66 +1,105 @@
-🌱 EcoRecicla - Sistema de Gamificação para Reciclagem
-Sistema web que transforma reciclagem em jogo, permitindo que usuários ganhem pontos ao reciclar materiais e troquem por recompensas.
+Claro, Sena. Aqui está uma versão melhorada e padronizada do seu README.md com foco técnico, clareza de instruções e formatação consistente para desenvolvedores:
 
-🚀 Como Rodar o Aplicativo
-⚠️ Pré-requisitos
-Java 11 ou superior
-Node.js 16 ou superior
-Maven (geralmente vem com Java)
+---
 
-📦 Passo 1: Baixar o Projeto
+# 🌱 EcoRecicla - Sistema de Gamificação para Reciclagem
 
-# Clone o repositório
+**EcoRecicla** é um sistema web que transforma o ato de reciclar em uma experiência gamificada. Usuários acumulam pontos ao registrar materiais recicláveis e podem trocá-los por recompensas, como vales-transporte.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### ⚙️ Pré-requisitos
+
+Certifique-se de ter os seguintes softwares instalados:
+
+* **Java** 11 ou superior
+* **Node.js** 16 ou superior
+* **Maven** (geralmente incluído com a JDK)
+
+---
+
+### 📦 Passo 1: Clonar o Repositório
+
+```bash
 git clone [URL_DO_REPOSITORIO]
 cd ecorecicla
+```
 
-🔧 Passo 2: Rodar o Backend
-# Entre na pasta do backend
+---
+
+### 🔧 Passo 2: Executar o Backend
+
+```bash
 cd backend
-
-# Execute o servidor
 mvn spring-boot:run
+```
 
-✅ Backend funcionando quando aparecer:
+✅ O backend estará funcionando quando aparecer:
 
+```
 Tomcat started on port(s): 8081 (http)
 Started ReciclagemApplication in X seconds
-🌐 Acesse: 
-localhost
- (deve mostrar [])
+```
 
- 💻 Passo 3: Rodar o Frontend
-Abra um NOVO terminal (deixe o backend rodando):
-# Entre na pasta do frontend
+🌐 Acesse: `http://localhost:8081`
+Deve retornar um JSON de status da API (`[]` ou outro conteúdo esperado).
+
+---
+
+### 💻 Passo 3: Executar o Frontend
+
+Em um **novo terminal** (com o backend ainda em execução):
+
+```bash
 cd frontend
-
-# Instale as dependências (só na primeira vez)
-npm install
-
-# Execute o frontend
+npm install      # Executar apenas na primeira vez
 npm start
+```
 
-✅ Frontend funcionando quando aparecer:
+✅ O frontend estará funcionando quando aparecer:
 
+```
 Local: http://localhost:3000
 webpack compiled successfully
+```
 
-🎮 Passo 4: Usar o Sistema
-Faça Login:
+---
 
-CPF: 12345678901
-Nome: Seu Nome
-Registre uma Reciclagem:
+## 🎮 Passo 4: Usar o Sistema
 
-Escolha o material (Papel, Plástico, Vidro, Metal)
-Digite o peso em kg
-Clique em "Registrar"
-Veja seus Pontos:
+### 🧑‍💻 Login de Teste
 
-Papel: 10 pontos/kg
-Plástico: 15 pontos/kg
-Vidro: 20 pontos/kg
-Metal: 25 pontos/kg
-Troque por Vale-Transporte:
+* **CPF:** `12345678901`
+* **Nome:** `Seu Nome`
 
-50 pontos = 1 vale-transporte
-Receba um código único
+### ♻️ Registrar Reciclagem
+
+1. Escolha o tipo de material: Papel, Plástico, Vidro ou Metal
+2. Digite o peso (em kg)
+3. Clique em **"Registrar"**
+
+### 🏆 Tabela de Pontuação
+
+| Material | Pontos por Kg |
+| -------- | ------------- |
+| Papel    | 10 pts        |
+| Plástico | 15 pts        |
+| Vidro    | 20 pts        |
+| Metal    | 25 pts        |
+
+### 🎁 Recompensas
+
+* **50 pontos = 1 vale-transporte**
+* Ao atingir o total, um **código único** será gerado para troca.
+
+---
+
+## 📫 Contato
+
+Para dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento.
+
+---
+
+Se quiser, posso gerar também o arquivo `.md` pronto para você subir no repositório. Deseja isso?
