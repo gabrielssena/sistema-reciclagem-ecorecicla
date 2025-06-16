@@ -1,7 +1,3 @@
-Claro, Sena. Aqui está uma versão melhorada e padronizada do seu README.md com foco técnico, clareza de instruções e formatação consistente para desenvolvedores:
-
----
-
 # 🌱 EcoRecicla - Sistema de Gamificação para Reciclagem
 
 **EcoRecicla** é um sistema web que transforma o ato de reciclar em uma experiência gamificada. Usuários acumulam pontos ao registrar materiais recicláveis e podem trocá-los por recompensas, como vales-transporte.
