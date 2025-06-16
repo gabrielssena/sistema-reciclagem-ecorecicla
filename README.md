@@ -84,10 +84,10 @@ webpack compiled successfully
 
 | Material | Pontos por Kg |
 | -------- | ------------- |
-| Papel    | 10 pts        |
-| Plástico | 15 pts        |
-| Vidro    | 20 pts        |
-| Metal    | 25 pts        |
+| Papel    | 2 pts        |
+| Plástico | 1,5 pts        |
+| Vidro    | 3 pts        |
+| Metal    | 5 pts        |
 
 ### 🎁 Recompensas
 
@@ -96,10 +96,4 @@ webpack compiled successfully
 
 ---
 
-## 📫 Contato
 
-Para dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento.
-
----
-
-Se quiser, posso gerar também o arquivo `.md` pronto para você subir no repositório. Deseja isso?
